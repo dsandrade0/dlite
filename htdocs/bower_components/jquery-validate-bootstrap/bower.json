@@ -1,0 +1,26 @@
+{
+  "name": "jquery-validate-bootstrap",
+  "version": "1.0.0",
+  "authors": [
+    "Sébastien Castiel <sebastien.castiel@gmail.com>"
+  ],
+  "description": "Extends jQuery validation plugin to be used with Bootstrap",
+  "main": "jquery.validate.bootstrap.js",
+  "keywords": [
+    "validation",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "jquery-validate": "~1.12.0",
+    "bootstrap": "~3.2.0"
+  }
+}

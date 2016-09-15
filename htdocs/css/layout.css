@@ -1,0 +1,17 @@
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.prepend-top {
+  margin-top: 10px;
+}
+
+.prepend-bot {
+  margin-bottom: 10px;
+}
+
+.front {
+  z-index: 1999;
+  display: float;
+}

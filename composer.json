@@ -1,0 +1,20 @@
+{
+    "name": "didijudo/dlite",
+    "description": "Um framework PHP para facilitar sua vida de desenvolvedor =)",
+    "type": "project",
+    "require": {
+        "facebook/xhp-lib": "1.6.0",
+        "phpmailer/phpmailer": "~5.2"
+    },
+    "config": {
+        "vendor-dir": "lib/third"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Andrade",
+            "email": "didi.ufs@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha"
+}
