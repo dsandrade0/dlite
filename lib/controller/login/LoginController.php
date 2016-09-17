@@ -1,5 +1,6 @@
 <?php
 final class LoginController extends WebController {
+  public $js = array('utils');
 	
 	public function composeBody() {
 		return 

@@ -46,7 +46,6 @@ class WebController extends Controller {
     <![endif]-->
 
     <script src='/htdocs/bower_components/jquery/dist/jquery.min.js'></script>
-    ".$this->setCss().$this->setJs()."
 </head>
 
 ".$this->getMsg().(string)$this->composeBody()."
@@ -60,14 +59,14 @@ class WebController extends Controller {
 <script src='/htdocs/js/jquery-mask.js'></script>
 <script src='/htdocs/dist/js/sb-admin-2.js'></script>
 <script src='/htdocs/bower_components/bootbox.js/bootbox.js'></script>
-<script src='/htdocs/js/utils.js'></script>
+<!--<script src='/htdocs/js/utils.js'></script>-->
 </html>
 ";
     $clicky = "<a title='Web Analytics' href='http://clicky.com/100969968'><img alt='Web Analytics' src='//static.getclicky.com/media/links/badge.gif' border='0' /></a>
       <script src='//static.getclicky.com/js' type='text/javascript'></script>
 <script type='text/javascript'>try{ clicky.init(100969968); }catch(e){}</script>
 <noscript><p><img alt='Clicky' width='1' height='1' src='//in.getclicky.com/100969968ns.gif' /></p></noscript>";
-    return $html.$clicky;
+    return $html.$clicky.$this->setJs();
   }
 
 /*
@@ -100,7 +99,7 @@ class WebController extends Controller {
     if (!empty($this->js)) {
       foreach ($this->js as $js) {
        $html .= '<script type="text/javascript"'.
-         'src="/htdocs/js/'.$js.'.js"></script>'; 
+         'src="/lib/third/didijudo/compressor/compressor.php?__a=htdocs/js/'.$js.'.js"></script>'; 
       }
     } 
     return $html;

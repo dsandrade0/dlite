@@ -4,9 +4,40 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bc3541a8b0a7cb6da6e0b359c86025af",
-    "content-hash": "110940a793874bfcc676494adfa57bd3",
+    "hash": "18fdc68e41288c0f569bd8c91f2441e6",
+    "content-hash": "beb43b659725b609888c0d6c908c99a0",
     "packages": [
+        {
+            "name": "didijudo/compressor",
+            "version": "v0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/didijudo/compressor.git",
+                "reference": "4b42ffe6518d73c09db23d983e06667ca9744a4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/didijudo/compressor/zipball/4b42ffe6518d73c09db23d983e06667ca9744a4e",
+                "reference": "4b42ffe6518d73c09db23d983e06667ca9744a4e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Diego Andrade",
+                    "email": "didi.ufs@gmail.com"
+                }
+            ],
+            "description": "Um simples compressor de CSS e JS para usar em seus projetos",
+            "time": "2016-09-15 18:27:37"
+        },
         {
             "name": "facebook/xhp-lib",
             "version": "1.6.0",

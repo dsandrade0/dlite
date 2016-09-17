@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "facebook/xhp-lib": "1.6.0",
-        "phpmailer/phpmailer": "~5.2"
+        "phpmailer/phpmailer": "~5.2",
+        "didijudo/compressor": "v0.3"
     },
     "config": {
         "vendor-dir": "lib/third"
