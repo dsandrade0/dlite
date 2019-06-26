@@ -1,3 +1,9 @@
+h1. Introdução
+
+dlite é um simples framework php que visa facilitar o aprendizado na linguagem e tranquilidade no desenvolvimento.
+O dlite trabalha em conjunto com o framework css Twitter Bootstrap para facilitar a criação de páginas web com um design interessante e simples, mas pode ser robusto se for bem implementado.
+
+
 h1. Instalação
 
 h3. Debian/Ubuntu
@@ -16,11 +22,6 @@ bc. # sudo a2enmod rewrite
 E depois restarte o apache
 
 bc. # sudo service apache2 restart
-
-h1. Introdução
-
-dlite é um simples framework php que visa facilitar o aprendizado na linguagem e tranquilidade no desenvolvimento.
-O dlite trabalha em conjunto com o framework css Twitter Bootstrap para facilitar a criação de páginas web com um design interessante e simples, mas pode ser robusto se for bem implementado.
 
 h1. Arquitetura
 
